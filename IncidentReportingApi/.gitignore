@@ -1,0 +1,62 @@
+﻿## Ignore Visual Studio temporary files, build results, and
+## user-specific files
+.vs/
+*.user
+*.suo
+
+## Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+artifacts/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Entity Framework
+Migrations/
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Logs & temp files
+*.log
+*.tmp
+*.swp
+*~
+
+## System files
+*.DS_Store
+Thumbs.db
+
+## Environment files
+.env
+*.db
+*.sqlite
+*.pdb
+
+## Backup & packages
+*.bak
+*.zip
+*.7z
+*.tar.gz
+*.nupkg
+*.snupkg
+
+## App settings – allow appsettings.json, ignore sensitive ones
+!appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
