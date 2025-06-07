@@ -55,8 +55,7 @@ Thumbs.db
 *.nupkg
 *.snupkg
 
-## App settings – allow appsettings.json, ignore sensitive ones
-!appsettings.json
-appsettings.Development.json
-appsettings.Production.json
+## App settings – ignore all appsettings files
+appsettings.json
 appsettings.*.json
+
